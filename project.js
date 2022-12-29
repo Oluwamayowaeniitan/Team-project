@@ -1,0 +1,1 @@
+// The website  should be responsive at 965px

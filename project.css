@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+     background-color: rgb(238, 238, 238);
+     font-family: sans-serif;
+ }
+
+.links{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+}
+
+.links .info-link{
+    margin-left: 50px;
+    float: left
+}
+
+.links .info-link ul{
+    display: flex;
+}
+
+.links .info-link ul li{
+    list-style-type: none;
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.links .account{
+    margin-right: 50px;
+    float: right;
+}
+
+.links .account ul{
+    display: flex;
+}
+
+.links .account ul li{
+    background-color: white;
+    list-style-type: none;
+    margin: 10px 6px;
+    font-size: 14px;
+    padding: 6px 8px;
+}
+
+.links .fav-cart{
+    display: none;
+}
+
+.fa-caret-down{
+    margin-left: 10px;
+}
+
+.top{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+
+.top .title{
+    float: left;
+    margin-left: 60px;
+    margin-right: 100PX;
+    display: flex;
+    padding: 15px 0;
+    
+}
+
+.top .title p{
+    font-size: 43px;
+    background-color: black;
+    color: rgb(250, 198, 55);
+    font-family: Arial;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.top .title span{
+    font-size: 43px;
+    background-color: rgb(250, 198, 55) !important;
+    color: black !important;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.search{
+    width: 270px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 17px;
+    margin-left: -30px;
+}
+
+.search-input{
+    border: 1px solid black;
+    border-left: none;
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(250, 198, 55);
+}
+
+.seacrh-box{
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: inline-flex;
+    float: left;
+}
+
+.new-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+}
+
+.contact{ 
+    float: right;
+    margin-right: 50px;
+}
+
+.contact h3{
+    letter-spacing: 1px;
+}
+
+.top-categories{
+    background-color: rgb(59, 63, 61);
+    height: 60px;
+}
+
+.top-categories .categories{
+    float: left;
+    margin-left: 60px;
+    display: flex;
+    background-color:rgb(250, 198, 55);
+    width: 25%;
+    
+}
+
+.top-categories p{
+    padding-top: 20px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.top-categories .fa-bars{
+    margin-right: 8px;
+    margin-left: 13px;
+}
+
+.top-categories .categories p .fa-angle-down{
+    margin-left: 80px;
+}
+
+.top-categories .menu ul{
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+.top-categories ul li{
+    list-style-type: none;
+    padding: 20px 10px 22px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.top-categories ul li:hover{
+    color:rgb(250, 198, 55);
+}
+
+/* .menu{
+    float: left;
+} */
+
+.top-menu .fav-cart{
+    display:inline-flex;
+    float: right;
+    margin-right: 20px;
+}
+
+.top-menu .fav-cart i{
+    color:rgb(250, 198, 55);
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+.top-menu .fav-cart p{
+    color: white;
+    margin-left: -8px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .side-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 965px){
+    .links .info-link{
+        display: none;
+    }
+
+    .links{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .links .fav-cart{
+        display: inline-flex;
+        color:rgb(59, 63, 61);
+    }
+
+    .top{
+        background-color:rgb(59, 63, 61);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .top .title{
+        margin-left: 20px;
+    }
+    .top .title p{
+        font-size: 40px;
+        background-color: white;
+        color: rgb(59, 63, 61);
+    }
+    .top .title span{
+        font-size: 40px;
+        background-color: rgb(250, 198, 55) !important;
+        color: white !important;
+    }
+
+    .top .contact{
+        display: none;
+    }
+    
+    .top .side-menu{
+        display: block;
+    }
+
+    .top .side-menu i{
+        color: white;
+        font-size: 25px;
+        border: 1px solid white;
+        padding: 5px 12px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .search{
+        margin-left: -50px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    .top .search-box{
+        display: none;
+    }
+}
