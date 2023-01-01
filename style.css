@@ -199,7 +199,7 @@
     justify-content: space-between;
 }
 
-.top .side-menu{
+.top .side-bar{
     display: none;
 }
 
@@ -247,11 +247,11 @@
         display: none;
     }
     
-    .top .side-menu{
+    .top .side-bar{
         display: block;
     }
 
-    .top .side-menu i{
+    .top .side-bar i{
         color: white;
         font-size: 25px;
         border: 1px solid white;
@@ -274,8 +274,12 @@
     }
 
     .drop-down{
-        display: block;
+        display: none;
         background-color: rgb(59, 63, 61);
+    }
+
+    .show{
+        display: block;
     }
 
     .drop-down ul{
