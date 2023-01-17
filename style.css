@@ -277,6 +277,12 @@
     /* padding-bottom: 25px; */
 }
 
+.indicators{
+    /* border: 1px solid white; */
+    padding: 5px;
+    /* margin-top: 50px; */
+}
+
 
 @media only screen and (max-width: 965px){
     .links .info-link{
@@ -372,6 +378,24 @@
     .drop-down ul li:hover{
         color:rgb(250, 198, 55);
     }
+
+    .slider{
+        width: 100%;
+    }
+
+    .slide-picture{
+        display: block;
+        padding: 25px 15px 5px 15px;
+    }
+
+    .side-slide{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    /* .side-slider img{
+        padding: 
+    } */
 }
 
 @media only screen and (max-width: 670px){
