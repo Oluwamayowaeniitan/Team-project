@@ -269,13 +269,49 @@
 
 .side-slide{
     width: 31%;
+    z-index: -1;
 }
 
-.side-slider .feature{
+.featured-list{
     color: white;
-    margin-top: -100px;
-    /* padding-bottom: 25px; */
+    margin-top: -320px;
+    margin-right: 100px;
+    float: right;
+    display: block;
+    text-align: center;
 }
+
+.featured-list h5{
+    font-size: 17px;
+}
+
+.featured-list h3{
+    font-weight: bold;
+}
+
+.featured-list span{
+    border: 1px solid rgb(250, 198, 55);
+    padding: 10px;
+    background-color: rgb(250, 198, 55);
+    color: black;
+}
+
+.feature1{
+margin-top: -105px;
+}
+
+/* .feature1 span{
+    margin-top: 50px;
+} */
+
+.feature2{
+    /* padding-top: 20px; */
+margin-top: 130px;
+}
+
+/* .side-slider .feature h5{
+    margin-top: -100px;
+} */
 
 .indicators{
     /* border: 1px solid white; */
