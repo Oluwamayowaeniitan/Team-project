@@ -241,20 +241,6 @@
     height: 27rem;
 }
 
-.slide-picture{
-    padding: 25px 30px 5px 15px;
-}
-
-.side-slider img{
-    width: 100%;
-    /* float: right; */
-    padding-bottom: 30px;
-}
-
-.side-slider img{
-    height: 14.5rem !important;
-}
-
 .slider{
     width: 65%;
     /* float: left; */
@@ -264,54 +250,50 @@
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
+    padding: 25px 30px 5px 15px;
     /* height: 100%; */
 }
 
 .side-slide{
     width: 31%;
-    z-index: -1;
-}
-
-.featured-list{
-    color: white;
-    margin-top: -320px;
-    margin-right: 100px;
-    float: right;
     display: block;
-    text-align: center;
+    /* z-index: -1; */
 }
 
-.featured-list h5{
+.carousel-feature img{
+    height: 12.5rem !important;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.carousel-feature img:hover{
+    transform: scale(1.1);
+
+}
+
+.carousel-feature{
+    padding-bottom: 32px;
+}
+
+.carousel-feature h5{
     font-size: 17px;
 }
 
-.featured-list h3{
+.carousel-feature h3{
     font-weight: bold;
 }
 
-.featured-list span{
+.carousel-feature span{
     border: 1px solid rgb(250, 198, 55);
     padding: 10px;
     background-color: rgb(250, 198, 55);
     color: black;
+    cursor: pointer;
 }
 
-.feature1{
-margin-top: -105px;
+.word{
+    margin: 20px;
 }
-
-/* .feature1 span{
-    margin-top: 50px;
-} */
-
-.feature2{
-    /* padding-top: 20px; */
-margin-top: 130px;
-}
-
-/* .side-slider .feature h5{
-    margin-top: -100px;
-} */
 
 .indicators{
     /* border: 1px solid white; */
@@ -319,6 +301,39 @@ margin-top: 130px;
     /* margin-top: 50px; */
 }
 
+/* .standard{
+    
+} */
+
+.content{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.content .statement{
+    display: inline-flex;
+    background-color: white;
+    width: 22%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.content i{
+    font-size: 40px;
+    color: rgb(250, 198, 55);
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.content p{
+    font-size: 20px;
+    font-weight: 620;
+    color: black;
+    margin-left: 20px;
+}
 
 @media only screen and (max-width: 965px){
     .links .info-link{
@@ -429,9 +444,12 @@ margin-top: 130px;
         padding-top: 30px;
     }
 
-    /* .side-slider img{
-        padding: 
-    } */
+    .content .statement{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-wrap: wrap;
+    }
+
 }
 
 @media only screen and (max-width: 670px){
