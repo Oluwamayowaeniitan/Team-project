@@ -340,14 +340,43 @@
     color:rgb(59, 63, 61);
     font-weight: 650;
     font-size: 27px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
-.categogy-product h2::after{
-    content: ' ';
-    width: 50%;
-    border: none;
-    border-top: 1px dotted rgb(59, 63, 61);
+.sub-categories{
+    display: inline-flex;
+    background-color: white;
+    width: 20%;
+    /* padding-left: 10px; */
+    /* margin: 15px 15px; */
+    /* justify-content: space-between; */
+}
+
+.sub-categories img{
+    width: 40%;
+}
+
+.cat-info h4{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.cat-info p{
+    color:rgb(59, 63, 61);
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.cat-info{
+    padding-left: 10px;
+}
+
+.cat-info:hover{
+    background-color: rgb(250, 198, 55);
+}
+
+.all-categories{
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 965px){
