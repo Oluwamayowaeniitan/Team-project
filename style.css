@@ -341,6 +341,7 @@
     font-weight: 650;
     font-size: 27px;
     margin-left: 30px;
+    width: 100%;
 }
 
 .sub-categories{
@@ -352,8 +353,9 @@
     /* justify-content: space-between; */
 }
 
+
 .sub-categories img{
-    width: 40%;
+    width: 100px;
 }
 
 .cat-info h4{
@@ -371,13 +373,20 @@
     padding-left: 10px;
 }
 
-.cat-info:hover{
+.sub-categories:hover{
     background-color: rgb(250, 198, 55);
 }
 
 .all-categories{
-    justify-content: space-between;
+    width: 100%;
+    /* justify-content: space-between; */
+    /* margin: 30px; */
 }
+
+/* .sub-categories{
+    margin: 15px;
+    justify-content: space-between;
+} */
 
 @media only screen and (max-width: 965px){
     .links .info-link{
